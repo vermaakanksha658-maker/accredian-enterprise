@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { X } from "lucide-react";
-import enquiryImg from "../assets/business-V2.webp";
+import enquiryImg from "../assets/business-v2.webp";
 
 const EnquiryModal = ({ open, setOpen }) => {
   const [formData, setFormData] = useState({
