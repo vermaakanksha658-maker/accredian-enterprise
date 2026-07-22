@@ -4,7 +4,7 @@ const router = express.Router();
 const {
   createEnquiry,
   getAllEnquiries,
-} = require("../Controllers/enquiryController");
+} = require("../Controllers/enquirycontroller");
 
 router.post("/create", createEnquiry);
 router.get("/all", getAllEnquiries);
